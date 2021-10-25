@@ -1,12 +1,12 @@
 # infra-cloud-capgipi
 
 # tâches 
-NIC : Network Interfaces
+NIC : Network Interfaces ( Thierry / Florian )
 Subnet
 NSG : Network Security Group
-PIP : Public IP
-VNET : Virtual Network
-RG : Ressources Groupe
+PIP : Public IP ( Thierry / Florian )
+VNET : Virtual Network  
+RG : Ressources Groupe 
 
 
 #composition de l'équipes:
