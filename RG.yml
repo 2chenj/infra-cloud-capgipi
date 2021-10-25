@@ -1,0 +1,4 @@
+- name: Create resource group
+  azure_rm_resourcegroup:
+    name: Capipi_Resource
+    location: francesouth
