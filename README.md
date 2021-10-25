@@ -22,16 +22,17 @@ thierry
 
 #Définition du playbook
 
-- name: Create resource group
-  azure_rm_resourcegroup:
-    name: Capipi_Resource
-    location: uksouth
-- name: Creation réseau virtuel
+#Définir le nom du groupe de ressources :
+-nom
+-localisation
+#Definir le réseau virtuel
+ name: Creation réseau virtuel
   azure_rm_virtualnetwork:
     resource_group: Capipi_Resource
     name: Capipi_Vnet
     address_prefixes: "172.16.0.0/29"
-- name: Ajouter un sous réseau
+#Définir le sous-réseau
+ name: Ajouter un sous réseau
   azure_rm_subnet:
     resource_group: Capipi_Resource
     name: Capipi_Subnet
