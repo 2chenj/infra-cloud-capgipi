@@ -36,4 +36,4 @@
       virtual_network: 172.16.0.0
       subnet: 255.255.255.248
       public_ip_name: Capipi_ip_public
-      security_group: Capipi_security_group
+      security_group: Capipi_Security
