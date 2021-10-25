@@ -2,7 +2,7 @@
 
 # tâches 
 NIC : Network Interfaces
-subnet
+Subnet
 NSG : Network Security Group
 PIP : Public IP
 VNET : Virtual Network
