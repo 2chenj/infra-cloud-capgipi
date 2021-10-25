@@ -8,6 +8,9 @@
 ####VNET : Virtual Network  
 ####RG : Ressources Groupe 
 
+nom du ressource groupe: Capipi_Resource
+security group: Capipi_security_group
+Pour azure_rm_publicipaddress ça sera "Capipi_ip_public"
 
 #composition de l'équipes:
 florian
