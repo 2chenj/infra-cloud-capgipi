@@ -22,13 +22,10 @@ thierry
 
 #Définition du playbook
 
-#DEFINIR LE NOM DU GROUPE DE RESSOURCES
 - name: Create resource group
   azure_rm_resourcegroup:
     name: Capipi_Resource
     location: uksouth
-    
-DEFINIR LE NOM DU RESEAU VIRTUEL
 - name: Creation réseau virtuel
   azure_rm_virtualnetwork:
     resource_group: Capipi_Resource
