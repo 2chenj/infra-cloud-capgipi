@@ -9,7 +9,7 @@
 > RG : Ressources Groupe 
 
 nom du ressource groupe: Capipi_Resource
-security group: Capipi_security_group
+security group: Capipi_Security
 Pour azure_rm_publicipaddress ça sera "Capipi_ip_public"
 
 #composition de l'équipes:
