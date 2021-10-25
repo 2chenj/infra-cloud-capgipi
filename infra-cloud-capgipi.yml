@@ -1,7 +1,7 @@
 - name: Create resource group
   azure_rm_resourcegroup:
     name: Capipi_Resource
-    location: francesouth
+    location: uksouth
 - name: Creation réseau virtuel
   azure_rm_virtualnetwork:
     resource_group: Capipi_Resource
