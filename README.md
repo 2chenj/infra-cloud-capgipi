@@ -1,12 +1,12 @@
 # infra-cloud-capgipi
 
 # tâches 
-cretin des NIC network interfrces
+NIC : Network Interfaces
 subnet
-nsg networ sec grou
-pip : public IP
-vnet :virtu netwirk
-resources groupe
+NSG : Network Security Group
+PIP : Public IP
+VNET : Virtual Network
+RG : Ressources Groupe
 
 
 #composition de l'équipes:
