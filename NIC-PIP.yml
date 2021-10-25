@@ -1,0 +1,13 @@
+- name: Capipi_ip_public
+    azure_rm_publicipaddress:
+      resource_group: Capipi_Resource
+      allocation_method: Static
+      name: Capipi_ip_public
+- name: Capipi_Vnet
+    azure_rm_networkinterface:
+      resource_group: Capipi_Resource
+      name: Capipi_NIC
+      virtual_network: 172.16.0.0
+      subnet: 255.255.255.248
+      public_ip_name: Capipi_ip_public
+      security_group: Capipi_security_group
