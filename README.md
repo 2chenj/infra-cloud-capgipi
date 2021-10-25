@@ -1,12 +1,12 @@
 # infra-cloud-capgipi
 
 # tâches 
-####NIC : Network Interfaces ( Thierry / Florian / Solal) : 172.16.0.0/29 ,255.255.255.248
-###Subnet
-####NSG : Network Security Group
-####PIP : Public IP ( Thierry / Florian / Solal)
-####VNET : Virtual Network  
-####RG : Ressources Groupe 
+## NIC : Network Interfaces ( Thierry / Florian / Solal) : 172.16.0.0/29 ,255.255.255.248
+> Subnet
+> NSG : Network Security Group
+> PIP : Public IP ( Thierry / Florian / Solal)
+> VNET : Virtual Network  
+> RG : Ressources Groupe 
 
 nom du ressource groupe: Capipi_Resource
 security group: Capipi_security_group
