@@ -27,7 +27,7 @@
         protocol: Tcp
         destination_port_range: 22
         access: Allow
-        priority: 1001
+        priority: 122
         direction: Inbound
 - name: Capipi_Vnet
     azure_rm_networkinterface:
