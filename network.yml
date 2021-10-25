@@ -1,0 +1,11 @@
+- name: Creation réseau virtuel
+  azure_rm_virtualnetwork:
+    resource_group: Capipi_Resource
+    name: Capipi_Vnet
+    address_prefixes: "172.16.0.0/29"
+- name: Ajouter un sous réseau
+  azure_rm_subnet:
+    resource_group: Capipi_Resource
+    name: Capipi_Subnet
+    address_prefix: "172.16.0.0/29"
+    virtual_network: Capipi_Vnet
